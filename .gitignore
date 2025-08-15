@@ -1,0 +1,22 @@
+Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# env / secrets
+.env
+.env.* 
+instance/
+secrets/
+
+# logs
+*.log
+nohup.out
+
+# data (optional: যদি তুমি real large data repo ত ৰাখিব নিদিবা)
+# data/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
